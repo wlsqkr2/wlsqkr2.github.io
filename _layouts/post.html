@@ -21,7 +21,7 @@ comments: true
             <small>{{ post.date | date_to_string }}</small>
           </a>
     {% if page.comments != false %}
-	    {% include disqus_comments.html %}
+	    {% include comments.html %}
     {% endif %}  
         </h3>
       </li>
