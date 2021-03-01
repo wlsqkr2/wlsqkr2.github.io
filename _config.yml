@@ -52,3 +52,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+
+# --- local development options ---
+
+url : "https://wlsqkr2.github.io"
+
+---
+
