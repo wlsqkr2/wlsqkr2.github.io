@@ -8,9 +8,6 @@ comments: true
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
-{% if page.comments != false %}
-	    {% include comments.html %}
-    {% endif %}
 
 {% if site.related_posts.size >= 1 %}
 <div class="related">
@@ -30,4 +27,6 @@ comments: true
   </ul>
 </div>
 {% endif %}
-
+{% if page.comments != false %}
+	    {% include comments.html %}
+{% endif %}
