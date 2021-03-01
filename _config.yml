@@ -54,6 +54,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+disqus_url:
 
+disqus_id: 'wlsqkr2-comment'
 
-disqus_shortname: 'wlsqkr2-comment'
